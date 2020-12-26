@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TextQuest by K.M.</string>
+
+<!--    Character parameters names -->
+    <string name="character_param_K">Карьера</string>
+    <string name="character_param_A">Активы</string>
+    <string name="character_param_R">Репутация</string>
+</resources>
