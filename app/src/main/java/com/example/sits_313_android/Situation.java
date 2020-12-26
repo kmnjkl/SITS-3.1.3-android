@@ -13,7 +13,7 @@ public class Situation {
         this.dA = dA;
         this.dR = dR;
         direction = new Situation[0];
-        variantsTexts = new String[]{"Да!"};
+        variantsTexts = new String[]{"Сыграем ещё раз!"};
     }
 
     public Situation (String subject, String text, int variants, String[] variantsTexts, int dk, int da, int dr) {

@@ -87,7 +87,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         manager.printParams(character_param_K, character_param_A, character_param_R);
         console.setText(story.current_situation.text);
         if (story.isEnd()) {
-            console.append("\n\nСыграем ещё раз?");
             manager.resetManager();
             story.resetStory();
             buttons[0].setVisibility(View.VISIBLE);
